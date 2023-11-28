@@ -15,7 +15,7 @@ from streamlit_folium import folium_static
 st.set_page_config( page_title='Visão Empresa', page_icon='', layout='wide')
 
 # Importar arquivo csv
-df = pd.read_csv( 'ftc_aula58\dataset\FTC_Aula34.1.csv' )
+df = pd.read_csv( 'dataset\FTC_Aula34.1.csv' )
 
 
 ##  =============================
@@ -79,7 +79,7 @@ def top_delivers(df1, top_asc):
 st.header('Marketplace - Visão Entregadores')
 
 # image_path = 'Proj_curry_company/curry_delivery.jpg'
-image = Image.open('ftc_aula58/curry_delivery.jpg')
+image = Image.open('curry_delivery.jpg')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown('# Cury Company')
