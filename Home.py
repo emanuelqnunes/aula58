@@ -6,8 +6,7 @@ st.set_page_config(
     page_icon="",
 )
 
-# image_path = 'Proj_curry_company/curry_delivery.jpg'
-image = Image.open('ftc_aula58/curry_delivery.jpg')
+image = Image.open('curry_delivery.jpg')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown( '# Cury Company')
