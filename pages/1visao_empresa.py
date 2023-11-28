@@ -133,7 +133,7 @@ def country_maps(df1):
 
 st.header('Marketplace - Visão Cliente')
 
-image_path = 'ftc_aula58/curry_delivery.jpg'
+image_path = 'curry_delivery.jpg'
 image = Image.open( image_path )
 st.sidebar.image( image, width=120 )
 
